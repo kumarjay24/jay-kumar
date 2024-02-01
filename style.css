@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #294B29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+h1{
+    color: #DBE7C9;
+    font-family: ;
+}
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #DBE7C9;
+    background: transparent;
+    font-family: gilroy;
+    border: 2px solid #fff;
+}
+button:hover{
+    background-color: #c6e29c;
+    color: black;
+    scale: 0.95;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+}
+.ab{
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center     ;
+}
+.ab:active{
+   
+}
+.ab:hover{ 
+    background-color:  #c6e29c;
+}
+img{
+    height: 90px;
+}
+h2{
+    font-size: 40px;
+    color: #DBE7C9;
+}
+button:active{
+    scale: 0.95;
+}  
+.hello{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}     
+.and{
+    padding: 0 10px;
+    position: relative;
+    top: -40%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+}   
+.and h2{
+    font-size: 15px;
+}   
+.playground img{
+    position: absolute;
+}  
+
